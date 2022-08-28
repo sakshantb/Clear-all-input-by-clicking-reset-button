@@ -1,0 +1,4 @@
+$(document).on("click","#workspace_clear",function(){						
+			$('#report_workspace_metadata input[type=checkbox]').prop('checked',false);									
+			$('#w_date_field input[type=date]').val('');									
+		});
